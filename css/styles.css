@@ -1,0 +1,194 @@
+#title{
+    background-color: #ff4c68 ;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: aliceblue;
+    line-height: 1.5;
+}
+h2{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+.navbar{
+    margin-bottom: 3rem;
+}
+.navbar-link{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+/* Download buttons */
+
+.download-button{
+    margin: 5% 1% 5% 0% ;
+}
+/* Title image */
+
+.iphone-dog{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    z-index: 0;
+
+    right: 20%;
+    
+    
+}
+
+
+
+.container-fluid{
+    padding: 3% 10% 7%;
+}
+
+.Intro{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: aliceblue;
+    line-height: 1.5;
+}
+
+/* content */
+
+#features{
+    background-color: aliceblue;
+    position: relative;
+    /* z-index: 1; */
+}
+.feature-box{
+    text-align: center;
+    padding: 7%;
+}
+
+
+h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+.container-content{
+    padding: 10% 5% 10% 5%;
+    position: relative;
+    
+}
+.content-img{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.content-img:hover{
+    
+    color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: aliceblue;
+}
+#testimonials-carousel{
+    padding: 7% 15%;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-img{
+    margin: 5%;
+    width: 10%;
+}
+
+/* pricing */
+#pricing{
+    text-align: center;
+    padding: 5% 15%;
+}
+.pricing-text{
+    margin: auto auto 5%;
+}
+
+.card{
+    margin: 5% 3%;
+}
+
+/* CALLTO ACTION */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: aliceblue;
+    padding: 5% 15% 10%;
+}
+
+.cta-title{
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.footer-img{
+    margin-left: .5%;
+    margin-right: .5%;
+    color: #8f8f8f;
+}
+.footer-img:hover{
+    color: black;
+}
+
+/* Responsive */
+
+@media (max-width: 990px) {
+    #title{
+        text-align: center;
+    }
+    .iphone-dog{
+        width: 100%;
+        transform: rotate(0);
+        position: static;
+        right: 20%;
+        
+        
+    }
+    
+}
